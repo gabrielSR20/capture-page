@@ -1,8 +1,8 @@
 @media only screen and (max-width: 680px) {
     
-    /* .container {
+    .container {
         height: auto;
-    } */
+    }
     
     .center {
         flex-wrap: wrap;
@@ -31,7 +31,7 @@
     }
 }
 
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 681px) {
     .container {
         height: auto;
     }
@@ -66,18 +66,23 @@
     }
 
     .links img {
-        /* position: absolute; */
         margin: 0;
     }
+    
+}
 
-    .layer {
+@media only screen and (max-height: 512px) {
+    .back-position {
+        height: 200vh;
+    }
+
+    .container {
         height: 100%;
     }
 
     .layer-center {
-        height: 100%;
+        display: block;
     }
-
 }
 
 @media only screen and (max-width: 300px) {

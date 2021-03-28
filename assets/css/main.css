@@ -152,16 +152,13 @@
 
 .layer {
     background: rgba(0, 0, 0, 0.9);
-    height: 100vh;
+    height: 100%;
     width: 100%;
     color: white;
 
     position: absolute;
     top: 0px;
-    /* border: 5px solid red; */
     display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .layer-hidden {
@@ -174,6 +171,10 @@
     background: #FFF;
 
     padding: 3em 2em 7px;
+
+    align-self: center;
+    
+    margin: 0 auto;
     border-radius: 15px;
     position: relative;
     transition: padding .5s;
