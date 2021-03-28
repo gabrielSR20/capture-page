@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;800&display=swap');
+
+:root {
+    --primary-color: #04D361;
+    --teste: linear-gradient(200deg, rgba(10,20,20,1), rgba(0,0,70,1) 90.71%);
+
+    --small-length: 1.2em;
+    --middle-length: 2.5em;
+}
+
+* {
+    box-sizing: border-box;
+
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+.container {
+    color: #fff;
+    width: 100%;
+    background: var(--teste);
+    height: 100vh;
+
+}
+
+.container-intern { 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 85%;
+    height: 100%;
+    margin: 0 auto;
+    max-width: 1080px;
+    /* border: 2px solid white; */
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    height: 70%;
+    /* border: 2px solid red; */
+}
+
+.center {
+    width: 100%;
+    display: flex;
+    height: 60%;
+    /* border: 2px solid red; */
+
+}
+
+.call {
+    display: flex;
+    max-width: 50%;
+    flex-flow: wrap;
+    /* border: 2px solid red; */
+    align-content: center;
+
+}
+
+
+.container-right {
+    /* border: 2px solid #04D361; */
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    background: url(../images/Ilustra.svg) center center no-repeat;
+    background-size: contain;
+}
+
+.container-header {
+    /* border: 2px solid red; */
+    text-transform: uppercase;
+    font-size: var(--middle-length);
+    font-weight: 600;
+    margin-bottom: 0.5em;
+}
+
+.container-subtitle {
+    font-size: var(--small-length);
+    font-weight: 400;
+    max-width: 300px;
+    /* margin-bottom: 10em; */
+    /* border: 2px solid red; */
+}
+
+.button {
+    text-align: center;
+    background: #b60238;
+    max-width: 350px;
+
+    padding: 10px 0px;
+    /* margin-left: 4em; */
+    border: 2px solid #b60238;
+    border-radius: 10px;
+    font-size: 1.5em;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: ease-in-out .2s;
+    cursor: pointer;
+}
+
+.button:hover {
+    background: #dc1954;
+    border: 2px solid #dc1954;
+    box-shadow: 0px 0px 5px #dc1954;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+
+    padding: 2em 0 2em;
+
+}
+
+.social {
+    display: flex;
+    align-items: center;
+}
+
+.links img{
+    opacity: .5;
+    transition: all 0.2s ease-in;
+    display: flex;
+    height: 20px;
+    width: 20px;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+/* .links .yt {
+    width: 22px;
+} */
+
+.links img:hover {
+    opacity: 1;
+    height: 25px;
+    width: 25px;
+}
+
+/* Form */
+
+.back-position {
+    position: relative;
+    /* border: 5px solid red; */
+}
+
+
+
+.layer {
+    background: rgba(0, 0, 0, 0.9);
+    height: 100vh;
+    width: 100%;
+    color: white;
+
+    position: absolute;
+    top: 0px;
+    /* border: 5px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.layer-hidden {
+    display: none;
+}
+
+.layer-center {
+    max-width: 450px;
+    /* border: 2px solid red; */
+    background: #FFF;
+
+    padding: 3em 2em 7px;
+    border-radius: 15px;
+    position: relative;
+    transition: padding .5s;
+}
+
+.layer-center:hover {
+    padding: 5em 2em 10px;
+}
+
+.form-title,
+.message,
+.legend {
+    display: flex;
+    color: #575757;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.form-title {
+    font-weight: 800;
+    font-size: 1.5em;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.close {
+    position: absolute;
+    top: 30px;
+    right: 35px;
+}
+
+.message {
+    margin-top: 30px;
+    justify-content: flex-end;
+    font-size: 12px;
+}
+
+.email-form,
+.name-form {
+    width: 100%;
+    border: none;
+    background: #dfdfdf;
+    
+    padding: 10px 20px;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 15px;
+    color: #575757;
+    margin-bottom: 30px;
+}
+
+input[type='submit'] {
+    width: 100%;
+    max-width: 250px;
+    background: #04D361;
+
+    border: none;
+    border-radius: 15px;
+    padding: 20px 0;
+    cursor: pointer;
+    color: #fff;
+    font-weight: bold;
+    font-size: 15px;
+}
