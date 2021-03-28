@@ -70,6 +70,13 @@
         margin: 0;
     }
 
+    .layer {
+        height: 100%;
+    }
+
+    .layer-center {
+        height: 100%;
+    }
 
 }
 
