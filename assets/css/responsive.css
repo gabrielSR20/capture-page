@@ -71,13 +71,14 @@
     
 }
 
-@media only screen and (max-height: 512px) {
+@media only screen and (max-height: 513px) {
     .back-position {
-        height: 200vh;
+        height: 150vh;
     }
+    
 
     .main {
-        align-items: flex-start;
+        align-items: center;
     }
 
     .container {
