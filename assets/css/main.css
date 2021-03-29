@@ -181,13 +181,13 @@
 }
 
 .layer-center:hover {
-    padding: 5em 2em 10px;
+    padding: 4em 2em 10px;
 }
 
 .form-title,
 .message,
 .legend {
-    display: flex;
+    /* display: flex; */
     color: #575757;
     font-weight: 400;
     margin-bottom: 5px;
@@ -226,7 +226,7 @@
     margin-bottom: 30px;
 }
 
-input[type='submit'] {
+/* .b-form {
     width: 100%;
     max-width: 250px;
     background: #04D361;
@@ -238,4 +238,19 @@ input[type='submit'] {
     color: #fff;
     font-weight: bold;
     font-size: 15px;
+} */
+
+#mc-embedded-subscribe {
+    width: 100%;
+    max-width: 250px;
+    background: #04D361;
+
+    border: none;
+    border-radius: 15px;
+    padding: 10px 0;
+    cursor: pointer;
+    color: #fff;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 0;
 }
